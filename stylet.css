@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+    }
+    
+    body{
+    background:#f4f6f8;
+    line-height:1.6;
+    }
+    
+    /* Header */
+    
+    header{
+    background:#6a1b9a;
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+    }
+    
+    header h1{
+    font-size:40px;
+    }
+    
+    header p{
+    margin-top:10px;
+    font-size:18px;
+    }
+    
+    /* About Section */
+    
+    .about{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    padding:50px;
+    background:white;
+    }
+    
+    .about img{
+    width:260px;
+    border-radius:10px;
+    margin:20px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    }
+    
+    .about-text{
+    max-width:500px;
+    margin:20px;
+    }
+    
+    .about-text h2{
+    color:#6a1b9a;
+    margin-bottom:15px;
+    }
+    
+    /* Quote */
+    
+    .quote{
+    background:#eee;
+    text-align:center;
+    padding:40px;
+    font-size:22px;
+    font-style:italic;
+    color:#444;
+    }
+    
+    /* Achievements */
+    
+    .achievements{
+    padding:50px;
+    text-align:center;
+    }
+    
+    .achievements h2{
+    color:#6a1b9a;
+    margin-bottom:30px;
+    }
+    
+    .cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    }
+    
+    .card{
+    background:white;
+    padding:25px;
+    width:250px;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+    }
+    
+    .card:hover{
+    transform:translateY(-10px);
+    }
+    
+    /* Footer */
+    
+    footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+    }
